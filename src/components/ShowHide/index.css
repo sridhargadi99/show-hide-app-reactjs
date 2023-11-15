@@ -1,0 +1,63 @@
+/* Write your CSS here */
+.main-container {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sub-container {
+}
+.heading-style {
+  font-family: 'Roboto';
+  font-size: 50px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+.button-container {
+  display: flex;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .button-container {
+    flex-direction: column;
+  }
+}
+.button-container1 {
+  margin: 30px;
+}
+.button-style {
+  padding: 15px;
+  border-radius: 8px;
+  color: #dd1264;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.button-border-style1 {
+  border-width: 0px;
+}
+.button-border-style2 {
+  border-width: 2px;
+}
+.container-style {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border-width: 0px;
+  height: 100px;
+  width: 250px;
+  margin-top: 20px;
+  background-color: #ffffff;
+}
+
+.name-style {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+}
